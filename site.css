@@ -1,0 +1,401 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    
+}
+
+.logo img {
+    height: 60px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav ul li a.active {
+    color: green;
+}
+.book-online {
+    background-color: #a1d64f;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    
+}
+.book-online:hover{
+    background-color: rgb(239, 155, 155);
+}
+.btn2{
+    background-color: greenyellow;
+    border-radius: 4px;
+    border: 0cap solid transparent;
+    height: 25px;
+    color: black;
+    margin-left: 40px;
+}
+.btn2:hover{
+    background-color:aqua
+}
+#d2{
+   display: flex; 
+   margin-top: 10px;
+   justify-content: center;
+   gap: 50px;
+}
+#d3{
+    height: 480px;
+    width: 480px;
+    background-color: black;
+    margin-left: 0px;
+    padding-left: 10px;
+    
+}
+.hero {
+    background: url('https://a-static.besthdwallpaper.com/image-of-forest-and-sky-wallpaper-1152x720-22202_2.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+.content {
+    background: rgba(0, 0, 0, 0.6 );
+    height: 100%;
+    border: 1px solid black;
+    width: 100%;
+}
+.tagline {
+    font-size: 1.8rem;
+    font-weight: 100;
+    margin-top: 100px;
+    color: rgb(255, 255, 255);
+}
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 70px;
+    color: white;
+}
+.description {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+    color: white;
+   margin-top: 20px;
+}
+.booking-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    padding-top: 50px;
+}
+.date-input, .guest-input {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    width: 180px;
+}
+.check-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.check-button:hover {
+    background-color: #45a049;
+}
+.rating {
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: white;
+    padding-top: 20px;
+}
+.stars {
+    color: #ffc20b;
+}
+.bi-check-square-fill{
+    margin-top: 10px;
+}
+.bi-check-square-fill2{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.bi-check-square-fill3{
+    margin-top: 13px;
+    margin-left: 59px;   
+}
+.bi-check-square-fill1{
+    margin-left: 10px;
+}
+
+.a3{
+    text-decoration: none;
+}
+.check-button1{
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+   
+}
+#d5{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px    ;
+                                                                                                                                        
+}
+.room-container1{
+    height: 450px;
+    width: 220px;
+
+    margin-left: 60px;
+    position: relative;
+    display: inline-block;   
+}
+.room-container2{
+    height: 450px;
+    width: 220px;
+    
+    margin-left: 60px;
+    position: relative;
+    display: inline-block;   
+}
+.room-container3{
+    height: 450px;
+    width: 220px;
+    
+    margin-left: 60px;
+    position: relative;
+    display: inline-block;   
+}
+.rooms1{
+    height: 180px;
+    background-image: url(https://hotelbandlaheights.com/wp-content/uploads/elementor/thumbs/STANDARD_ROOM-qz8b0rhurqdg6ecuqrf0qub4w025emg1aw90h159vc.jpeg);
+    background-size: cover;
+}
+.rooms3{
+    height: 180px;
+    background-image: url(https://hotelbandlaheights.com/wp-content/uploads/2018/07/FAMILY.jpeg);
+    background-size: cover;
+}
+.rooms2{
+    height: 180px;
+    background-image: url(https://hotelbandlaheights.com/wp-content/uploads/elementor/thumbs/delux-room-2-qzpoinql7toaz3uv1qumw123mq7uznxhk4q3ijmz3s.jpg);
+    background-size: cover;
+}
+.div3{
+    height: 30%;
+}
+.bed{
+    height: 50px;
+    width: 25%;
+    
+}
+.Featured-badge{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: green;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+.price {
+    font-size: 1.1em;
+    margin: 15px 0;
+    color: #333;
+}
+
+.book-btn {
+    padding: 10px 5px;
+    font-size: 0.9em;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+#d6{
+    height: 370px;
+    width: 100%;
+
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+}
+.Experiences{
+    height: 90%;
+    width: 500px;
+
+    margin-top: 20px;
+
+}
+.hotal-photo{
+    margin-left: 34px;
+    height: 60%;
+    width: 350px;
+    margin-top: 60px;
+    background-image: url(https://hotelbandlaheights.com/wp-content/uploads/2025/01/IMG-20250106-WA0018.jpg);
+    background-size: cover;
+
+}
+.e1{
+    position: relative;
+    font-size: 21px;
+    font-weight: bolder;
+}
+  .Features-container
+{
+    display: flex
+}
+.features-list{
+    list-style: '▶';
+}
+
+
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .card p {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  .footer {
+    background-color: #e9edf3;
+    padding: 20px 40px;
+    margin-top: 40px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-section,
+  .links-section,
+  .contact-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+  }
+  
+  .logo {
+    width: 100px;
+    margin-bottom: 10px;
+    margin-left:100px ;
+  }
+  
+  .about-section p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  
+  .links-section h3,
+  .contact-section h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .links-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .links-section ul li {
+    margin-bottom: 5px;
+  }
+  
+  .links-section ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  .links-section ul li a:hover {
+    color: #007bff;
+  }
+  
+  .contact-section p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+.h{
+    color: white;
+    justify-content: left;
+}
